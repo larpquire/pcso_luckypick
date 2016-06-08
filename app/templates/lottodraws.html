@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+  <p id="captext">Please click the Generate button to form a lucky pick combination. Click it again to get another sequence.</p>
+  {% for n in range(digits) %}
+    <span class="spanres" id="span_id_{{ n }}">?</span>
+  {% endfor %}
+  <p></p>
+  <form>
+    <a href="#" class="btn btn-primary btn-lg" role="button" id="generate_res" name="{{ chosen }}">Generate</a>
+  </form>
+{% endblock %}

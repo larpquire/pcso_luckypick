@@ -1,0 +1,12 @@
+p#results {
+  font-size: 200%;
+}
+
+span.spanres {
+  display: inline-block;
+  width: 30px;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 150%;
+  text-align: center;
+}
